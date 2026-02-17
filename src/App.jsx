@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Upload, Star, Sparkles, Image as ImageIcon, Loader2, Download, RefreshCw, User, Camera, UserPlus, Search, ArrowLeft, ChevronRight, ChevronLeft, Check, Filter, Zap, Wand2, Maximize2, Grid, Trash2, Globe, ChevronDown, Coins, PlusCircle, X, MessageSquareQuote, BrainCircuit } from 'lucide-react';
-
+import './index.css';
 const CELEBRITIES = [
   // ACTORS (20)
   { id: 'tom_cruise', name: 'Tom Cruise', cat: 'actor', popular: true, prompt: 'leaning in close for a friendly candid photo, putting an arm around the user’s shoulder, smiling warmly at the camera' },

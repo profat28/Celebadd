@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
-  background-color: #0f172a; /* Karanlık tema arka planı */
+  background-color: #0f172a;
   color: white;
+  font-family: sans-serif;
 }
