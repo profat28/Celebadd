@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
+/* Arka planın her zaman koyu kalması için */
+html, body, #root {
   background-color: #0f172a;
-  color: white;
-  font-family: sans-serif;
+  min-height: 100vh;
+  margin: 0;
 }
