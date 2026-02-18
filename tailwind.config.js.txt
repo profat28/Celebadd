@@ -5,13 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        // Gemini'nin kullandığı özel koyu tonları buraya ekleyebilirsin
-        dark: "#0f172a",
-        accent: "#1e293b",
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
